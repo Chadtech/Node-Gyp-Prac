@@ -1,0 +1,4 @@
+var DANKMEMES = require('./build/Release/DANKMEMES');
+
+DANKMEMES.DANKMEMES("DANK MEMES");
+DANKMEMES.dAnKmEmEs();
