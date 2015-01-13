@@ -4,6 +4,7 @@ var DANKMEMES = require('./build/Release/DANKMEMES');
 DANKMEMES.dAnKmEmEs();
 
 DANKMEMES = DANKMEMES.DANKMEMES("DANK MEMES");
+
 while (true){
   console.log('DANK MEMES', DANKMEMES);
 }
