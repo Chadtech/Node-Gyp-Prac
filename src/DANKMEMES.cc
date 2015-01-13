@@ -27,4 +27,5 @@ void Init(Handle<Object> exports) {
     NanNew<FunctionTemplate>(DANKMEMES)->GetFunction());
 }
 
+// This --------v has to be the same as the binding.gyp target_name
 NODE_MODULE(DANKMEMES, Init); 
