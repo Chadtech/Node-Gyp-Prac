@@ -11,12 +11,12 @@ NAN_METHOD(d4NkMeM35) {
 }
 
 NAN_METHOD(DANKMEMES){
+  NanScope();
   v8::String::Utf8Value param1(args[0]->ToString());
   std::string DANKMEMES = std::string(*param1);
   const char * xXxDaNkMeMeSxXx = DANKMEMES.c_str();
-  printf(xXxDaNkMeMeSxXx);
-  printf("\n");
-  NanReturnUndefined();
+  Local <String> DaNkMeMeS = NanNew<String>(xXxDaNkMeMeSxXx);
+  NanReturnValue(DaNkMeMeS);
 }
 
 void Init(Handle<Object> exports) {
