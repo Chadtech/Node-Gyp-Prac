@@ -1,9 +1,11 @@
-npm install node-gyp
-npm install nan
+# npm install node-gyp
 
-node-gyp configure
-node-gyp build
+# npm install nan
 
-node DANKMEMES.js
+# node-gyp configure
+
+# node-gyp build
+
+# node DANKMEMES.js
 
 Please view the comments in binding.gyp, DANKMEMES.js, and DANKMEMES.cc. 
